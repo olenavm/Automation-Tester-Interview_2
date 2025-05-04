@@ -16,3 +16,16 @@ test('Login Test with JSON Credentials', async ({ page }) => {
   await expect(page).toHaveTitle('QA Automation test Project | brains.app');
 });
 
+test('Check for PDF export/download functionality', async ({ page }) => {
+  await page.goto('https://qa-test.intellisense.io/next/signin');
+  await page.getByRole('textbox', { name: 'Email address' }).click();
+  await page.getByRole('textbox', { name: 'Email address' }).fill('qateam-auto+guest@intellisense.io');
+  await page.getByRole('textbox', { name: 'Email address' }).press('Enter');
+  await page.getByRole('textbox', { name: 'Password' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).fill('QateamIS@2025');
+  await page.getByTestId('SignInLocal-signInButton').click();
+  await page.getByRole('link', { name: 'QA Automation test Project' }).click();
+  await page.getByTestId('ActionToggleButton').nth(1).click();
+  await page.getByTestId('AsyncActionDialog-okButton').click();
+  await page.getByRole('link', { name: 'Download' }).click();
+});
