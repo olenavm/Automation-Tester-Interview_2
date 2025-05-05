@@ -13,7 +13,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  //globalSetup: './tests/global-setup', // Path to global setup file
+  globalSetup: './tests/global-setup', // Path to global setup file
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -27,12 +27,12 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
+    baseURL: 'https://qa-test.intellisense.io',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     //headless: true,
     //viewport: { width: 1280, height: 720 },
-    //storageState: 'storageState.json', // Reuse saved cookies/storage state
+    storageState: 'storageState.json', // Reuse saved cookies/storage state
     trace: 'on-first-retry',
   },
 

@@ -1,0 +1,79 @@
+{
+  "cookies": [
+    {
+      "name": "route",
+      "value": "1746446948.688.4328.929361|a1a136e413ac30ee4898625e1892b5e9",
+      "domain": "qa-test.intellisense.io",
+      "path": "/next",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "route",
+      "value": "1746446948.837.4328.248340|37898e3c50a65e694c63fc88227eb67e",
+      "domain": "qa-test.intellisense.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "connect.sid",
+      "value": "s%3A_TiAuXtbdNSeqfpY9jLF56iVwZRrssN7.czNCx7E8GYakfLwtaPpFiH0IjJ4fhoNXOiB0e2MSES4",
+      "domain": "qa-test.intellisense.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "BRAINSAPP_AUTHENTICATION_THIRD_PARTY_RESULT",
+      "value": "",
+      "domain": "qa-test.intellisense.io",
+      "path": "/",
+      "expires": 1746447007.690487,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "BRAINS_APP_SIGNIN_LANGUAGE",
+      "value": "en",
+      "domain": "qa-test.intellisense.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ugeuid",
+      "value": "452",
+      "domain": ".intellisense.io",
+      "path": "/",
+      "expires": 1754395749,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://qa-test.intellisense.io",
+      "localStorage": [
+        {
+          "name": "persist:userguiding",
+          "value": "{\"common\":\"{\\\"searchActive\\\":false,\\\"selectedGuideId\\\":null,\\\"editedHotspotGroupId\\\":null,\\\"editedHotspotIndex\\\":null,\\\"fetching\\\":false,\\\"sidebarOnRight\\\":false,\\\"selectedStepIndex\\\":null,\\\"guideEditorCollapsed\\\":false}\",\"contentUI\":\"{\\\"step\\\":{}}\",\"guidePreview\":\"{\\\"active\\\":false,\\\"fromGuideEditor\\\":false,\\\"guidePreview\\\":false,\\\"isReady\\\":false,\\\"loading\\\":true,\\\"previewedGuideId\\\":0,\\\"previewedStepIndex\\\":null,\\\"previewing\\\":false,\\\"shouldOverlay\\\":true,\\\"urlChangeCount\\\":0,\\\"applyDelay\\\":true}\",\"hotspotPreview\":\"{\\\"previewedHotspotGroupId\\\":0,\\\"previewedHotspotIndex\\\":0,\\\"urlChangeCount\\\":0,\\\"isSinglePreview\\\":false,\\\"isEditorPreview\\\":false}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        },
+        {
+          "name": "ug-guide-events",
+          "value": "{\"start\":false,\"complete\":false,\"steps\":[]}"
+        }
+      ]
+    }
+  ]
+}

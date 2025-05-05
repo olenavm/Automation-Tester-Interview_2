@@ -9,6 +9,10 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.3"
+    "@types/node": "^22.15.3",
+    "@types/pdf-parse": "^1.1.5"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
   }
 }
